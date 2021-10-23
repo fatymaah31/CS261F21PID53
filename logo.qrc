@@ -1,0 +1,11 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>icons8_sound_cloud_100px.png</file>
+    <file>icons8_musical_notes_50px.png</file>
+    <file>icons8_music_100px_1.png</file>
+    <file>download.jfif</file>
+    <file>music-home-vector-icon-logo-template-design-189712878.jpg</file>
+    <file>download (1).png</file>
+    <file>headphones-icon-vector-simple-element-260nw-1118252348.jpg</file>
+  </qresource>
+</RCC>
