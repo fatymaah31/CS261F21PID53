@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>811</width>
+    <height>742</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>811</width>
+      <height>751</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>10</y>
+       <width>161</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 26pt &quot;Sound Hut&quot;;
+font: 18pt &quot;Modern No. 20&quot;;
+font: 8pt &quot;Modern No. 20&quot;;
+background-color: rgb(0, 0, 0);
+</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:24pt; font-weight:600; color:#ffffff;&quot;&gt;Sound Hut&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>20</y>
+       <width>51</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>C:/Users/Malaika/Downloads/resize-1635051007197284429logo.png</pixmap>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>130</y>
+       <width>351</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 16pt &quot;Modern No. 20&quot;;
+border-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(255, 178, 102, 255), stop:0.55 rgba(235, 148, 61, 255), stop:0.98 rgba(0, 0, 0, 255), stop:1 rgba(0, 0, 0, 0));
+background-color: rgb(255, 255, 255);
+</string>
+     </property>
+     <property name="text">
+      <string>View All Songs</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_2">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>200</y>
+       <width>351</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);
+font: 16pt &quot;Modern No. 20&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Sort songs using Insertion Sort</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_3">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>270</y>
+       <width>351</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);
+font: 16pt &quot;Modern No. 20&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Sort songs using Merge Sort</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_4">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>340</y>
+       <width>351</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);
+font: 16pt &quot;Modern No. 20&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Sort songs using Bubble Sort</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_5">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>410</y>
+       <width>351</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);
+font: 16pt &quot;Modern No. 20&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Sort songs using Selection Sort</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_6">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>480</y>
+       <width>351</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);
+font: 16pt &quot;Modern No. 20&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Sort alphabetically w.r.t song name</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_7">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>550</y>
+       <width>351</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);
+font: 16pt &quot;Modern No. 20&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Sort alphabetically w.r.t Singer name</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_8">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>620</y>
+       <width>351</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);
+font: 16pt &quot;Modern No. 20&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Sort songs w.r.t to Genre</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
