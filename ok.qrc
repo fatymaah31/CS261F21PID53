@@ -1,0 +1,13 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>search_20px.png</file>
+    <file>module_100px.png</file>
+    <file>up_down_arrow_100px.png</file>
+    <file>play.png</file>
+    <file>stop.png</file>
+    <file>pause.png</file>
+    <file>loading.png</file>
+    <file>ok.png</file>
+    <file>360_degrees_30px.png</file>
+  </qresource>
+</RCC>
