@@ -620,18 +620,51 @@ border-radius: 10px
         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/newPrefix/search_20px.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
       </widget>
-      <widget class="QLabel" name="label_23">
+      <widget class="QLineEdit" name="lineEdit">
        <property name="geometry">
         <rect>
-         <x>40</x>
-         <y>3</y>
-         <width>47</width>
-         <height>20</height>
+         <x>32</x>
+         <y>0</y>
+         <width>371</width>
+         <height>31</height>
         </rect>
        </property>
-       <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; color:#ffffff;&quot;&gt;Search&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       <property name="styleSheet">
+        <string notr="true">font: 10pt &quot;Arial&quot;;
+color: rgb(255, 255, 255);</string>
        </property>
+       <property name="text">
+        <string>Search</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_3">
+       <property name="geometry">
+        <rect>
+         <x>490</x>
+         <y>6</y>
+         <width>121</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+font: 10pt &quot;Arial&quot;;</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>Artist Name</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Tags</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Song Title</string>
+        </property>
+       </item>
       </widget>
      </widget>
     </widget>
